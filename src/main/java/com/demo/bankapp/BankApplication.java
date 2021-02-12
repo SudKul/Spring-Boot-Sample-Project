@@ -21,6 +21,6 @@ public class BankApplication extends SpringBootServletInitializer{
 	}
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder builder) {
-        	return builder.sources(StartWebApplication.class);
+        	return builder.sources(BankApplication.class);
     	}
 }
